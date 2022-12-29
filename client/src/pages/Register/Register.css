@@ -1,0 +1,13 @@
+.register-container{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+    padding-bottom: 4rem;
+    margin-top: 6rem;
+}

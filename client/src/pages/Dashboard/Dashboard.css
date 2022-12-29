@@ -1,0 +1,53 @@
+.note-card{
+    border: 1px solid #e6e6e6;
+    padding: 1rem 1.3rem;
+    margin: 2rem 0;
+    border-radius: 0.2rem;
+    background-color: #ffffff;
+}
+.note-title{
+    /* text-align: center; */
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.801);
+    text-transform: capitalize;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid rgba(129, 138, 1, 0.151);
+}
+.my-notes{
+    text-align: center;
+    /* font-size: 2.3rem; */
+    margin-bottom: 1.5rem;
+    font-weight: bolder;
+}
+.note-content{
+    color: rgba(0, 0, 0, 0.658);
+}
+.btn-container{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.btn-d{
+    padding: 0.5rem 1.4rem;
+    border: none;
+    cursor: pointer;
+    color: red;
+}
+.btn-e{
+    cursor: pointer;
+    padding: 0.5rem 1.4rem;
+    border: none;
+    color: rgb(129, 138, 1);
+}
+.btn-d:hover{
+    transform: scale(0.93);
+}
+.btn-e:hover{
+    transform: scale(0.93);
+}
+.dashboard-container{
+    padding-bottom: 3rem;
+    /* background-color: rgb(245, 255, 255); */
+}
